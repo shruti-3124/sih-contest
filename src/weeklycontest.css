@@ -1,0 +1,86 @@
+/* Style for the section container */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Heading style */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Timer and status text */
+p {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Enabled button (Go to Contest Questions) */
+button:not([disabled]) {
+  background-color: #4caf50;
+  color: white;
+}
+
+button:not([disabled]):hover {
+  background-color: #45a049;
+}
+
+/* Disabled button (Contest Ended/Submitted) */
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Submit button */
+button.submit-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+button.submit-btn:hover {
+  background-color: #1e87e5;
+}
+
+/* Link wrapping the contest button */
+a {
+  text-decoration: none;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 600px) {
+  section {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

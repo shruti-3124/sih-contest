@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Story Section */
+.story-section {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.story-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.story-section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* MCQ Card */
+.mcq-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.mcq-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.mcq-card .options button {
+  display: block;
+  background: #dfc92373;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.mcq-card .options button:hover {
+  background: #b38c0061;
+}
+
+/* Progress Indicator */
+.progress-indicator {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-indicator p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Results Section */
+.results {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.results .answer-review {
+  margin-bottom: 10px;
+}
+
+.results .answer-review p {
+  font-size: 16px;
+}
+
+.correct {
+  color: #28a745;
+}
+
+.incorrect {
+  color: #dc3545;
+}
+
+/* Leaderboard Section */
+.leaderboard {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.leaderboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  font-size: 18px;
+  margin: 5px 0;
+}
